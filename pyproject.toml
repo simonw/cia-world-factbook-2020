@@ -1,0 +1,15 @@
+[project]
+name = "cia-world-factbook-2020"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "lxml>=6.0.2",
+    "sqlite-utils>=3.39",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
